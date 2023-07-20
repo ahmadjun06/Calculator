@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.calculator-buttons {
+  margin-top: 50px;
+  width: auto;
+  display: flex;
+  gap: 30px;
+}
+.button-number {
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+}
+button{
+  color: white;
+  padding: 10px 30px;
+  background-color: gold;
+  border: 0;
+  transition: 500ms;
+  border-radius: 12px;
+}
+button:hover{
+  cursor: pointer;
+  background-color: blue;
+}
